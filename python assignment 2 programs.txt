@@ -1,0 +1,141 @@
+
+			PYHTON ASSIGNMENT
+														Bhuma Pujith Reddy,B2
+														321910302017
+1. Write a python program to design simple calculator for the operators 
+
+ANS:- Simple Calculator
+
+num1 = int(input('Enter First number: '))
+num2 = int(input('Enter Second number '))
+add = num1 + num2
+dif = num1 - num2
+mul = num1 * num2
+div = num1 / num2
+floor_div = num1 // num2
+power = num1 ** num2
+modulus = num1 % num2
+print('Sum of ',num1 ,'and' ,num2 ,'is :',add)
+print('Difference of ',num1 ,'and' ,num2 ,'is :',dif)
+print('Product of' ,num1 ,'and' ,num2 ,'is :',mul)
+print('Division of ',num1 ,'and' ,num2 ,'is :',div)
+print('Floor Division of ',num1 ,'and' ,num2 ,'is :',floor_div)
+print('Exponent of ',num1 ,'and' ,num2 ,'is :',power)
+print('Modulus of ',num1 ,'and' ,num2 ,'is :',modulus)
+
+2. write a python program to calculate simple interest?
+
+ANS:- # Python Program to Calculate Simple Interest
+
+      princ_amount = float(input(" Please Enter the Principal Amount : "))
+      rate_of_int = float(input(" Please Enter the Rate Of Interest   : "))
+      time_period = float(input(" Please Enter Time period in Years   : "))
+
+      simple_interest = (princ_amount * rate_of_int * time_period) / 100
+
+      print("\nSimple Interest for Principal Amount {0} = {1}".format(princ_amount, simple_interest))
+
+3.Write a python program to calculate area of a circle?
+
+ANS:-# Python Program - Calculate Area of Circle
+
+print("Enter 'x' for exit.");
+rad = input("Enter radius of circle: ");
+if rad == 'x':
+    exit();
+else:
+    radius = float(rad);
+    area = 3.14 * radius * radius;
+    print("\nArea of Circle = %0.2f" %area);
+
+4.Write a python program to calculate area of a triangle?
+
+ANS:-# Python Program - Calculate Area of Triangle
+
+print("Enter 'x' for exit.");
+side1 = input("Enter length of first side: ");
+if side1 == 'x':
+    exit();
+else:
+    side2 = input("Enter length of second side: ");
+    side3 = input("Enter length of third side: ");
+    a = float(side1);
+    b = float(side2);
+    c = float(side3);
+    s = (a + b + c)/2;
+    area = (s*(s-a)*(s-b)*(s-c)) ** 0.5;
+    print("\nArea of Triangle = %0.2f" %area);
+
+5.Write a python program to temperature in Celsius to Fahrenheit?
+
+ANS:-# Python Program - Convert Celsius to Fahrenheit
+
+print("Enter 'x' for exit.");
+cel = input("Enter Temperature in Celsius: ");
+if cel == 'x':
+    exit();
+else:
+    celsius = float(cel);
+    fahrenheit = (1.8*celsius) + 32;
+    print("Temperature in Fahrenheit =",fahrenheit);
+
+6.write a python program to calculate area of a rectangle?
+
+ANS:-# Python Program - Calculate Area of Rectangle
+
+print("Enter 'x' for exit.");
+leng = input("Enter length of Rectangle: ");
+if leng == 'x':
+    exit();
+else:
+    brea = input("Enter breadth of Rectangle: ");
+    length = int(leng);
+    breadth = int(brea);
+    area = length*breadth;
+    print("\nArea of Rectangle =",area);
+
+7. write a python program to calculate perimeter of a square?
+
+ANS:-# Python Program - Calculate Perimeter of Square
+
+print("Enter 'x' for exit.");
+side = input("Enter side length of square: ");
+if side == 'x':
+    exit();
+else:
+    slength = int(side);
+    perimeter = 4*slength;
+    print("\nPerimeter of Square =", perimeter);
+
+8. write a python program to caluclate  circumference of a circle?
+
+ANS:-# Python Program - Calculate Circumference of Circle
+
+print("Enter 'x' for exit.");
+rad = input("Enter radius of circle: ");
+if rad == 'x':
+    exit();
+else:
+    radius = float(rad);
+    circumference = 2*3.14*radius;
+    print("\nCircumference of Circle =",circumference);
+
+9. write a python program swap of two numbers?
+
+ANS:-# Python Program - Swap Two Numbers
+
+print("Enter 'x' for exit.");
+num1 = input("Enter first number: ");
+if num1 == 'x':
+    exit();
+else:
+    num2 = input("Enter second number: ");
+    print("\nStarted swapping the given two numbers...");
+    number1 = int(num1);
+    number2 = int(num2);
+    swap = number1;
+    number1 = number2;
+    number2 = swap;
+    print("Given two numbers are successfully swapped!\n");
+    print("Value of First and Second number after swapping:");
+    print("First Number =",number1,"\nSecond Number=",number2);
